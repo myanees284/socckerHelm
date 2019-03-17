@@ -1,0 +1,22 @@
+replicaCount: 1
+image:
+    repository: myanees/testla
+    tag: v101
+    pullPolicy: Always
+nameOverride: ""
+fullnameOverride: ""
+service:
+    type: NodePort
+    port: 2000
+    nodePort: 30100
+ingress:
+    enabled: false
+    annotations: {}
+    path: /
+    hosts:
+        - chart-example.local
+    tls: []
+resources: {}
+nodeSelector: {}
+tolerations: []
+affinity: {}

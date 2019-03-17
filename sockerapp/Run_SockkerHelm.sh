@@ -21,7 +21,7 @@ if [[ $DEPNAME == *"you"* ]]
 then
   echo "Updating container IMAGE"
   helm package helmapp1
-  helm upgrade helmapp1 helmapp1-0.1.0.tgz --set=image.tag=$tagVal
+  helm upgrade you helmapp1-0.1.0.tgz --set=image.tag=$tagVal
 else
   echo "Creating HELM PACKAGE"
   helm package helmapp1

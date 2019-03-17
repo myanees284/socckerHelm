@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.1-alpha.1",
+    "body-parser": "^1.18.3",
+    "mysql": "^2.16.0",
+    "ejs": "^2.6.1",
+    "req-flash": "^0.0.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

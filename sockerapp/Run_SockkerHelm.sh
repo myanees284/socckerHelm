@@ -27,3 +27,7 @@ else
   helm package helmapp1
   helm install helmapp1-0.1.0.tgz --name=you
 fi
+echo ******Deployment Completed*********
+export PORT=$(kubectl get svc you-helmapp1 -o go-template='{{range.spec.ports}}{{if .nodePort}}{{.nodePort}}{{"\n"}}{{end}}{{end}}')
+export HOST=$(ibmcloud ks workers mycluster --json | jq '.[0].publicIP')
+echo Application url is $HOST:$PORT

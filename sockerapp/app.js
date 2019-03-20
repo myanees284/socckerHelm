@@ -12,10 +12,10 @@ const port = 2000;
 // create connection to database
 // the mysql.createConnection function takes in a configuration object which contains host, user, password and the database name.
 const db = mysql.createConnection ({
-    host: 'lambdadb.cgp5okqtvhjh.us-east-2.rds.amazonaws.com',
-    user: 'myanees',
-    password: 'Alpha123',
-    database: 'opencart'
+    host: '<mysql host name>',
+    user: '<userid>',
+    password: '<password>',
+    database: '<db name>'
 });
 
 // connect to database

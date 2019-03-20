@@ -1,4 +1,4 @@
-# socckerHelm -- This project is similar KuberHelms project where the deployment is done using HELM charts, the Kubernetes package manager.
+# socckerHelm -- This project is similar KuberHelms project where the deployment is done using <a href="https://helm.sh">HELM charts</a>, the Kubernetes package manager.
 
 Sample Application downloaded and made changes to fit my need  - Node JS app connected to AWS MySQL DB, where soccer player names are added and removed.
 https://dev.to/achowba/build-a-simple-app-using-node-js-and-mysql-19me
@@ -20,4 +20,7 @@ The logic(Run_SockkerHelm.sh) mentioned for this sample deployment can be enhanc
 2) Docker and IBM Cloud CLI
 3) Kubernetes cluster in cloud(mycluster)
 4) MySQL database locally or in cloud(check sockerapp/app.js file in line number 15 to 18)
+
+
+
 

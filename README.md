@@ -14,3 +14,10 @@ Application is accessible after the deployment into the Kubernetes cluster >http
   
   
 The logic(Run_SockkerHelm.sh) mentioned for this sample deployment can be enhanced for actual projects.
+
+**prerequisite**
+1) Docker and IBM Cloud account
+2) Docker and IBM Cloud CLI
+3) Kubernetes cluster in cloud(mycluster)
+4) MySQL database locally or in cloud(check sockerapp/app.js file in line number 15 to 18)
+

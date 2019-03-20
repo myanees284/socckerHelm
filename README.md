@@ -7,8 +7,8 @@ https://dev.to/achowba/build-a-simple-app-using-node-js-and-mysql-19me
 2)Run_SockkerHelm.sh: <br>
   2.1) logs into the docker repository and pushes the image <br>
   2.2) logs into the IBM BlueMix, pulls the image from docker repository and deploys into the cluster using HELM(package manager) <br>
-  2.3) If the deployment with name "you" is not available, the deployment is created with "v<some numbers>"(this is unique tag name) which is a version number <br>
-  2.4) If the deployment with name "you" already exists, the existing deployment is updated with the new code changes with no downtime<br>
+  2.3) If the deployment with name **"you"** is not available, the deployment is created with "v<some numbers>"(this is unique tag name) which is a version number <br>
+  2.4) If the deployment with name **"you"** already exists, the existing deployment is updated with the new code changes with no downtime<br>
 
 Application is accesible after the deployment into the Kubernetes cluster http://<hostname>:30100/
   

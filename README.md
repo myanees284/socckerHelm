@@ -13,7 +13,7 @@ https://dev.to/achowba/build-a-simple-app-using-node-js-and-mysql-19me
 Application is accessible after the deployment into the Kubernetes cluster >http://hostname:port
   
   
-The logic(Run_SockkerHelm.sh) mentioned for this sample deployment can be enhanced for actual projects.
+The logic(Run_SockkerHelm.sh) mentioned for this sample deployment can be enhanced for other projects.
 
 **prerequisite**
 1) Docker and IBM Cloud account
